@@ -61,7 +61,7 @@ service:
 
 env:
   - name: MONGO_URI
-    value: "mongodb://admin:password%40123@mongo-chart:27017/wanderlustdb?authSource=admin"
+    value: "mongodb://admin:password%40123@mongo-chart.default.svc.cluster.local:27017/wanderlustdb?authSource=admin"
   - name: CORS_ORIGIN
     value: "http://3.109.32.205:31810"
 
